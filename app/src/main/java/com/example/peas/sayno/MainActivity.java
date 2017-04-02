@@ -10,6 +10,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    
+//Receives a string str, from input.
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//Start of Actual Code
+ArrayList<string> los = new ArrayList;
+
+private int len = str.length();
+
+String newStr = str.toLowerCase
+String tempStr = “”;
+
+for(int i = 0; i < len; i++){
+	char temp = newStr.charAt(i);
+	if(temp >= ‘a’ && temp <= ‘z’){
+		tempStr += “+temp+”;
+	}else{
+		los.add(tempStr);
+		tempStr = “”;
+	}
+}
+
+return los;
+//Scan the ArrayList los
+    
+    
+    
         public void run (){
 
         long startTime;
