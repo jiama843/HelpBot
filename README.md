@@ -1,4 +1,4 @@
-# HackPrinceton-Version-4
+# Help Bot
 
 
 ## Inspiration
