@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context="com.example.peas.sayno.MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="278dp"
+            android:layout_height="42dp"
+            android:text="SEND TEXT"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="509dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            tools:layout_editor_absoluteX="290dp"
+            tools:layout_editor_absoluteY="503dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="173dp"
+            android:layout_height="150dp"
+            android:text="BOT TEXT"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="164dp"
+            android:layout_height="148dp"
+            android:text="USER TEXT"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

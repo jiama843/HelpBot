@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.peas.sayno.HelpMenu">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.peas.sayno.MainActivity"><![CDATA[>
+        ]]>
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="302dp"
+                android:layout_height="57dp"
+                android:background="@android:color/transparent"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text="Advice Help"
+                android:textSize="35sp"
+                android:translationX="100dp"
+                android:translationY="70dp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-2dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="358dp"
+                android:layout_height="83dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="Contact the PARO office at 416 979-1182 or toll free at 1 877 979-1183 or email paro@paroteam.ca for ASAP help!"
+                android:translationX="30dp"
+                android:translationY="170dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="360dp"
+                android:layout_height="83dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="Contact 911 for immediate support on any criminal offence!"
+                android:translationX="30dp"
+                android:translationY="280dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="224dp"
+                android:layout_height="48dp"
+                android:background="@drawable/button_1"
+                android:onClick="MainMenuButton"
+                android:text="Menu Page"
+                android:translationX="90dp"
+                android:translationY="450dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+        </android.support.constraint.ConstraintLayout>
+        >
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

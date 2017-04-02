@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainMenu" />
+        <activity android:name=".HelpMenu" />
+        <activity android:name=".TalkBot"></activity>
     </application>
 
 </manifest>
